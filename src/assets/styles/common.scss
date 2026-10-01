@@ -1,0 +1,32 @@
+@use "./variables";
+/* ============================================================
+   COMMON STYLES
+   ============================================================ */
+
+.form-group, .form-field {
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+
+  text-align: left;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  outline: none;
+}
+
+button:focus,
+button:focus-visible,
+button:active {
+  outline: none;
+}

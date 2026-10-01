@@ -1,0 +1,320 @@
+.login-page {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f5f6f8;
+  color: #292d34;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 24rem;
+
+  padding: 2rem 1.5rem;
+}
+
+/* ============================================================
+   BRAND
+   ============================================================ */
+
+.login-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.5rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.login-logo {
+  color: #182c8c;
+
+  font-size: 1.25rem;
+  font-weight: 800;
+
+  line-height: 1;
+}
+
+.login-product {
+  display: flex;
+  flex-direction: column;
+
+  color: #1d39a6;
+
+  line-height: 1.05;
+}
+
+.login-product strong {
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.login-product span {
+  color: #777d86;
+
+  font-size: 0.6875rem;
+  font-weight: 400;
+}
+
+/* ============================================================
+   LOGIN CARD
+   ============================================================ */
+
+.login-card {
+  width: 100%;
+
+  padding: 1.75rem;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+
+  box-shadow: 0 0.5rem 1.5rem rgba(31, 45, 61, 0.06);
+}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+
+.login-card-header {
+  margin-bottom: 1.5rem;
+
+  text-align: center;
+}
+
+.login-card-header h1 {
+  margin: 0;
+
+  color: #292d34;
+
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  line-height: 1.3;
+}
+
+.login-card-header p {
+  margin: 0.4rem 0 0;
+
+  color: #777d86;
+
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   FORM
+   ============================================================ */
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+
+  margin-bottom: 0.4rem;
+
+  color: #3f4650;
+
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.form-group input {
+  width: 100%;
+  height: 2.625rem;
+
+  padding: 0 0.75rem;
+
+  box-sizing: border-box;
+
+  border: 1px solid #d6d9df;
+  border-radius: 0.25rem;
+
+  background: #ffffff;
+
+  color: #292d34;
+
+  font-family: inherit;
+  font-size: 0.8125rem;
+
+  outline: none;
+
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.form-group input::placeholder {
+  color: #9ca3af;
+}
+
+.form-group input:focus {
+  border-color: #253cf1;
+
+  box-shadow: 0 0 0 0.15rem rgba(37, 60, 241, 0.08);
+}
+
+/* ============================================================
+   PASSWORD
+   ============================================================ */
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  padding-right: 3.75rem;
+}
+
+.password-toggle {
+  position: absolute;
+
+  top: 50%;
+  right: 0.65rem;
+
+  transform: translateY(-50%);
+
+  padding: 0;
+
+  border: 0;
+
+  background: transparent;
+
+  color: #253cf1;
+
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+/* ============================================================
+   OPTIONS
+   ============================================================ */
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0.25rem 0 1.25rem;
+
+  font-size: 0.75rem;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+
+  gap: 0.4rem;
+
+  color: #666d77;
+
+  cursor: pointer;
+}
+
+.remember-me input {
+  width: 0.875rem;
+  height: 0.875rem;
+
+  margin: 0;
+
+  cursor: pointer;
+}
+
+.login-options a {
+  color: #253cf1;
+
+  text-decoration: none;
+
+  font-weight: 500;
+}
+
+.login-options a:hover {
+  text-decoration: underline;
+}
+
+/* ============================================================
+   LOGIN BUTTON
+   ============================================================ */
+
+.login-button {
+  width: 100%;
+  height: 2.625rem;
+
+  border: 0;
+  border-radius: 0.25rem;
+
+  background: #253cf1;
+  color: #ffffff;
+
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.15s ease,
+    transform 0.15s ease;
+}
+
+.login-button:hover {
+  background: #1d31d4;
+}
+
+.login-button:active {
+  transform: translateY(0.0625rem);
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+.login-footer {
+  margin-top: 1.25rem;
+
+  text-align: center;
+
+  color: #9ca3af;
+
+  font-size: 0.6875rem;
+}
+.login-error {
+  margin: -0.25rem 0 1rem;
+  padding: 0.6rem 0.75rem;
+
+  border: 1px solid #f1caca;
+  border-radius: 0.25rem;
+
+  background: #fff5f5;
+  color: #c62828;
+
+  font-size: 0.75rem;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 30rem) {
+  .login-container {
+    max-width: 100%;
+
+    padding: 1.5rem 1rem;
+  }
+
+  .login-card {
+    padding: 1.5rem;
+  }
+}
