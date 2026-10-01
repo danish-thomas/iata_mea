@@ -355,7 +355,7 @@ export default function HeaderNew({
           </div>
 
           <div className="header-user">
-            <img className="header-avatar" src="/Avatar.png" alt="Jane Doe" />
+            <img className="header-avatar" src="../assets/images/Avatar.png" alt="Jane Doe" />
             <span className="header-username">Jane Doe</span>
           </div>
         </div>
